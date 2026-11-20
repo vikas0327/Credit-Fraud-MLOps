@@ -1,25 +1,25 @@
 {
-    "accuracy": 0.9996137776061234,
-    "precision": 0.9222222222222223,
-    "recall": 0.8469387755102041,
-    "f1_score": 0.8829787234042553,
-    "roc_auc": 0.9765109089499615,
-    "pr_auc": 0.8748975895011228,
+    "accuracy": 0.7,
+    "precision": 0.2,
+    "recall": 0.3333333333333333,
+    "f1_score": 0.25,
+    "roc_auc": 0.6470588235294117,
+    "pr_auc": 0.4742806213394449,
     "confusion_matrix": [
         [
-            56857,
-            7
+            26,
+            8
         ],
         [
-            15,
-            83
+            4,
+            2
         ]
     ],
     "target": "Class",
     "dataset": "creditcard_2023.csv",
-    "rows": 284807,
-    "features": 30,
-    "fraud_percentage": 0.1727485630620034,
-    "model": "ExtraTrees",
+    "rows": 200,
+    "features": 29,
+    "fraud_percentage": 15.0,
+    "model": "LogisticRegression",
     "selected_metric": "f1_score"
 }
