@@ -1,0 +1,29 @@
+{
+    "model": "credit",
+    "incoming_rows": 80,
+    "incoming_target_distribution": {
+        "1": 40,
+        "0": 40
+    },
+    "champion_incoming_metrics": {
+        "accuracy": 0.6625,
+        "precision": 0.76,
+        "recall": 0.475,
+        "f1_score": 0.5846153846153846
+    },
+    "champion_holdout_metrics": {
+        "accuracy": 0.75,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1_score": 0.6666666666666666
+    },
+    "candidate_holdout_metrics": {
+        "accuracy": 0.55,
+        "precision": 0.5714285714285714,
+        "recall": 0.4,
+        "f1_score": 0.47058823529411764
+    },
+    "quality_gate": "FAIL - Keep existing champion",
+    "candidate_artifact": "/workspaces/Credit-Fraud-MLOps/artifacts/candidates/credit_candidate.joblib",
+    "champion_automatically_replaced": false
+}
